@@ -1,0 +1,39 @@
+body {
+    background-image: url(nono.jpg);
+    background-size: cover; /* Cover the whole background */
+    font-family: Arial, sans-serif;
+    color: #333; /* Default text color for better contrast */
+    margin: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #333;
+    font-family: "Times New Roman", serif; 
+    background-color: #fbf5e8;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    font-family: cursive;
+  }
+  
+  h2 {
+    font-family: monospace;
+    clear: both; 
+    margin-top: 30px;
+  }
+  
+  .recipe-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }

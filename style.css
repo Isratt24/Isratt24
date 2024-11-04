@@ -5,10 +5,16 @@ body{
 }
 h1{
   font-weight: lighter;
-    color: rgb(36, 34, 36);
+    color: rgb(150, 0, 150);
     text-decoration: overline;
-}
 
+}
+img{
+width: 250px;
+height: 300px;
+border: 2px solid #003E1F;
+margin: 20px
+}
 <style>
   background-image: url('image_123650291\ \(1\).JPG');
 }

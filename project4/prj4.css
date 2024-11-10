@@ -30,7 +30,7 @@ body {
 }
 .hardlevel {
   width: 500px;
-  height: 200px;
+  height: 300px;
   background-image: url('Hard_BEFORE.png'); /* Default image */
   background-size: cover;
   transition: background-image 0.5s ease;

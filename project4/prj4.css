@@ -1,13 +1,120 @@
+/* Ensure the body background is fixed and doesn't zoom */
 body {
-    background-image: url(background.jpg)
-  
-  }
-  h2{
-    font-weight: Fantasy;
-  }
-  p {
-    color: black;
-  }
-  h1 {
-    font-weight: bold;
-  }
+  background-color: #5581a9;
+  background-image: url(background.png);
+ 
+  background-attachment: fixed;  /* Prevent the background from scrolling */
+}
+
+.easylevel {
+  width: 500px;
+  height: 300px;
+  background-image: url('Easy_BEFORE.png'); /* Default image */
+  background-size: cover;
+  transition: background-image 0.5s ease;
+}
+
+.easylevel:hover {
+  background-image: url('Easy_AFTER.png'); /* Image changes on hover */
+}
+.mediumlevel {
+  width: 500px;
+  height: 300px;
+  background-image: url('Medium_BEFORE.png'); /* Default image */
+  background-size: cover;
+  transition: background-image 0.5s ease;
+}
+
+.mediumlevel:hover {
+  background-image: url('Medium_AFTER.png'); /* Image changes on hover */
+}
+.hardlevel {
+  width: 500px;
+  height: 200px;
+  background-image: url('Hard_BEFORE.png'); /* Default image */
+  background-size: cover;
+  transition: background-image 0.5s ease;
+  align-items: center;
+}
+
+.hardlevel:hover {
+  background-image: url('Hard_AFTER.png'); /* Image changes on hover */
+}
+
+.start h2 {
+  font-family: cursive;
+  font-size: 15px; 
+}
+
+.image-containerh2 {
+  text-align: center;
+}
+
+
+
+.level img {
+  width: 100%;
+  transition: opacity 1s ease, transform 1s ease; /* Much slower transition */
+}
+
+.level img:hover {
+  opacity: 0.7;
+  transform: scale(1.05);
+}
+
+/* Wave Styling */
+.wave {
+  border: 1px solid #192A51;
+  background-color: #335094;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 10px;
+  height: 30px;
+  overflow: hidden;
+  width: 80%;
+  margin: 10px auto;
+  transition: height 2s ease;  /* Make wave expansion even slower */
+}
+
+.wave:hover {
+  height: 400px;
+}
+
+/* Instructions Styling (no changes here) */
+.instructions {
+  background-color: #f4f4f9;
+  border: 2px solid #192A51;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.instructions h2 {
+  font-family: 'Arial', sans-serif;
+  color: #335094;
+  font-size: 24px;
+ margin-bottom: 10px;
+}
+
+.instructions ul {
+  padding: 0;
+  margin: 0;
+}
+.instructions ul li {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+
+.instructions ul li strong {
+  color: #192A51;
+}
+
+.instructions p {
+  font-size: 1em;
+  margin-top: 20px;
+}
+

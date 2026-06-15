@@ -3,11 +3,11 @@ body {
   font-family: Arial;
 }
 
-/* TOP BAR */
+/* HEADER */
 .topbar {
   background: #1e3a8a;
   color: white;
-  padding: 15px 20px;
+  padding: 12px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,11 +15,11 @@ body {
 
 /* TITLE */
 .title {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
 }
 
-/* MENU */
+/* NAV */
 .navbar-right {
   list-style: none;
   display: flex;
@@ -28,7 +28,7 @@ body {
 }
 
 .navbar-right li {
-  margin-left: 25px;
+  margin-left: 20px;
 }
 
 .navbar-right a {
@@ -41,9 +41,13 @@ body {
   color: #93c5fd;
 }
 
-/* IFRAME (BIGGER FIX) */
-.viewer {
+/* IFRAME FIX (IMPORTANT PART) */
+.frame-container {
+  height: calc(100vh - 50px);
+}
+
+.frame-container iframe {
   width: 100%;
-  height: calc(100vh - 70px);
+  height: 100%;
   border: none;
 }

@@ -4,7 +4,12 @@
   margin: 0;
   padding: 0;
 }
-
+.color{ 
+  color: white;
+}
+h2 {
+  font-family: fantasy;
+}
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-image: url('image_123650291 (1).JPG');
@@ -16,7 +21,22 @@ body {
   scroll-behavior: smooth;
   padding-top: 60px; /* To offset fixed navbar */
 }
+.contact-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  margin: 10px;
+  background-color: #b77fd8;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color purple;
+}
 
+.contact-btn:hover {
+  background-color: #d881e4;
+}
 /* Navbar */
 .navbar {
   position: fixed;
@@ -148,7 +168,7 @@ body {
   height: 120px;
   object-fit: cover;
   border-radius: 50%;
-  border: 3px solid #ebbcec;
+  border: 3px solid #ffcc00;
 }
 
 /* Footer */
@@ -192,6 +212,41 @@ footer {
   .content-section {
     margin: 20px 10px;
     padding: 20px 15px;
+  }
+
+  .navbar ul {
+    gap: 15px;
+  }
+}
+
+  color: white;
+  text-decoration: none;
+}
+
+.project-list a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color: rgba(14, 4, 78, 0.75);
+  margin-top: 40px;
+  border-radius: 12px;
+}
+
+/* Back to top */
+.back-to-top {
+  color: cyan;
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.8rem;
   }
 
   .navbar ul {

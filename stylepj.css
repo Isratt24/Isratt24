@@ -3,21 +3,23 @@ body {
   font-family: Arial;
 }
 
-/* navbar */
-.navbar {
+/* TOP BAR */
+.topbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: #1e3a8a;
   padding: 10px 20px;
+  color: white;
 }
 
-/* logo */
-.navbar-left img {
-  height: 40px;
+/* TITLE */
+.title {
+  font-size: 18px;
+  font-weight: bold;
 }
 
-/* menu */
+/* NAVBAR */
 .navbar-right {
   list-style: none;
   display: flex;
@@ -25,19 +27,23 @@ body {
   padding: 0;
 }
 
-/* spacing */
 .navbar-right li {
   margin-left: 20px;
 }
 
-/* links */
 .navbar-right a {
   text-decoration: none;
   color: white;
   font-weight: bold;
 }
 
-/* hover */
 .navbar-right a:hover {
   color: #93c5fd;
+}
+
+/* IFRAME */
+.viewer {
+  width: 100%;
+  height: calc(100vh - 60px);
+  border: none;
 }

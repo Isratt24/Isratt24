@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e3a8a;
+  padding: 10px 20px;
+}
+
+/* logo */
+.navbar-left img {
+  height: 40px;
+}
+
+/* menu */
+.navbar-right {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+/* spacing */
+.navbar-right li {
+  margin-left: 20px;
+}
+
+/* links */
+.navbar-right a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* hover */
+.navbar-right a:hover {
+  color: #93c5fd;
+}

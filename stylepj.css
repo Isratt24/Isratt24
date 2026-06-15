@@ -31,14 +31,14 @@ body {
   color: #93c5fd;
 }
 
-/* layout container */
+/* container */
 .container {
   max-width: 800px;
   margin: auto;
   padding: 20px;
 }
 
-/* main section boxes */
+/* main boxes */
 .box {
   background: white;
   padding: 20px;
@@ -47,11 +47,7 @@ body {
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.box h1 {
-  margin-top: 0;
-}
-
-/* project sub-boxes */
+/* projects inside box */
 .project {
   background: #f9fafb;
   padding: 15px;
@@ -60,6 +56,9 @@ body {
   border-radius: 6px;
 }
 
-.project h2 {
-  margin: 0 0 5px 0;
+/* iframe styling */
+iframe {
+  border: none;
+  border-radius: 8px;
+  margin-top: 10px;
 }

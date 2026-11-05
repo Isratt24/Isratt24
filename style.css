@@ -5,9 +5,10 @@
   padding: 0;
 }
 iframe {
-  width: 100%;
+  width: 70%;
   height: calc(100vh - 60px);
   border: none;
+  
 }
 .color{ 
   color: white;
@@ -224,6 +225,7 @@ footer {
   }
 }
 
+.navbar{
   color: white;
   text-decoration: none;
 }

@@ -1,13 +1,18 @@
-/* Reset some defaults */
+/* Reset some defaults*/
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+} 
 iframe {
-  width: 70%;
-  height: calc(100vh - 60px);
+  width: 100%;
+  height: 600px;
   border: none;
+
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  
   
 }
 .color{ 
@@ -26,6 +31,8 @@ body {
   line-height: 1.6;
   scroll-behavior: smooth;
   padding-top: 60px; /* To offset fixed navbar */
+   margin: 0;
+  padding: 0;
 }
 .contact-btn {
   display: inline-block;

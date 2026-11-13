@@ -246,32 +246,32 @@ footer {
   }
 
 
-/* Fun Facts Sections */
+
+/* Fun Facts */
 .fun-fact {
     display: flex;
     align-items: center;
+    margin: 30px;
     gap: 20px;
-    margin: 40px;
 }
 
 /* Pictures */
 .fact-pictures {
-    width: 45%;
     display: flex;
+    width: 50%;
     gap: 10px;
 }
 
 .fact-pictures img {
-    width: 45%;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
+    width: 50%;
+    height: 180px;
+    object-fit: contain;
 }
 
 /* Description */
 .fact-description {
-    width: 55%;
-    padding: 15px;
+    width: 50%;
+    padding: 10px;
 }
 
 .fact-description h3 {
@@ -280,7 +280,6 @@ footer {
 
 .fact-description p {
     font-size: 16px;
-    line-height: 1.5;
 }
 
 /* Second Section */

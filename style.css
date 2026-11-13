@@ -244,4 +244,47 @@ footer {
   .navbar ul {
     gap: 15px;
   }
+
+
+/* Fun Facts Sections */
+.fun-fact {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 40px;
+}
+
+/* Pictures */
+.fact-pictures {
+    width: 50%;
+    display: flex;
+    gap: 10px;
+}
+
+.fact-pictures img {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Description */
+.fact-description {
+    width: 50%;
+    padding: 15px;
+}
+
+.fact-description h3 {
+    font-size: 24px;
+}
+
+.fact-description p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Switch the second section */
+.reverse {
+    flex-direction: row-reverse;
+}
+
 }

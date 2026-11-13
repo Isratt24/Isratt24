@@ -263,31 +263,6 @@ footer {
     gap: 10px;
 }
 
-/* Individual Image Sizes */
-.pic1 {
-    width: 40%;
-    height: 120px;
-    object-fit: contain;
-}
-
-.pic2 {
-    width: 50%;
-    height: 150px;
-    object-fit: contain;
-}
-
-.pic3 {
-    width: 35%;
-    height: 100px;
-    object-fit: contain;
-}
-
-.pic4 {
-    width: 45%;
-    height: 130px;
-    object-fit: contain;
-}
-
 /* Description */
 .fact-description {
     width: 50%;

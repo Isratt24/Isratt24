@@ -256,20 +256,21 @@ footer {
 
 /* Pictures */
 .fact-pictures {
-    width: 50%;
+    width: 45%;
     display: flex;
     gap: 10px;
 }
 
 .fact-pictures img {
-    width: 50%;
-    height: 200px;
+    width: 45%;
+    height: 150px;
     object-fit: cover;
+    border-radius: 8px;
 }
 
 /* Description */
 .fact-description {
-    width: 50%;
+    width: 55%;
     padding: 15px;
 }
 
@@ -282,9 +283,8 @@ footer {
     line-height: 1.5;
 }
 
-/* Switch the second section */
+/* Second Section */
 .reverse {
     flex-direction: row-reverse;
 }
-
 }
